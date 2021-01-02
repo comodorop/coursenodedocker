@@ -4,7 +4,7 @@ const app = express()
 
 app.get("/clients", (req, resp)=>{
   resp.status(200).send({
-    "msg": "Servidor web en node"
+    "msg": "Hola este es un cambio"
   })
 })
 
